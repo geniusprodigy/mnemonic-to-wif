@@ -30,6 +30,28 @@ Converts many mnemonic seeds to WIF at once
 
 # SOLVING PROBLEMS
 
+* If get erro on install pip3 electrum, make this:
+
+pip3 install electrum-merchant
+
+* If the method above is not enough, make:
+
+mkdir <yourdirname>
+
+sudo apt-get install python3-setuptools python3-pyqt5 python3-pip
+
+cd <yourdirname>
+
+wget https://download.electrum.org/3.0.1/Electrum-3.0.1.tar.gz
+
+tar -xvzf Electrum-3.0.1.tar.gz
+
+cd Electrum-3.0.1
+
+sudo python3 setup.py install
+
+python3 electrum
+
 * If you still have a library missing from your system and can not install through PIP, you can separately search the dependencies reported in Terminal / Prompt and install them manually.
 
 * For Ubuntu, you can use the command:
