@@ -9,6 +9,10 @@ Converts many mnemonic seeds to WIF at once
 
 * Download the github project folder and save where you prefer. Access the directory via Command Prompt (cmd) and install the requirements.txt file libraries, use the command for greater agility: pip install -r requirements.txt
 
+(If the electrum fail, make: pip3 install electrum-merchant) and go to "SOLVING PROBLEMS" below for install the "electrum" manually
+
+* pip3 install ecdsa
+
 * Create a .txt file named "keys_mnemonics.txt" and replace the directory sample file. Or edit the existing file with your mnemonics, 1 full sentence per line.
 
 * You can now run the code with: python.exe mnemonic_to_wif.py
@@ -22,6 +26,10 @@ Converts many mnemonic seeds to WIF at once
 * Install pip3 if you have not installed it. Command: sudo apt-get install python3-pip
 
 * Download the github project folder and save where you prefer. Access the directory via Terminal / Shell and install the requirements.txt file libraries, use the command for greater agility: pip3 install -r requirements.txt
+
+(If the electrum fail, make: pip3 install electrum-merchant) and go to "SOLVING PROBLEMS" below for install the "electrum" manually
+
+* pip3 install ecdsa
 
 * Create a .txt file named "keys_mnemonics.txt" and replace the directory sample file. Or edit the existing file with your mnemonics, 1 full sentence per line.
 
