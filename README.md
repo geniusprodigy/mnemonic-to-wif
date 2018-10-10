@@ -1,6 +1,8 @@
 # mnemonic-to-wif
 Converts many mnemonic seeds to WIF at once
 
+See the example image link of operation: https://imgur.com/a/wUefg23
+
 # INSTALLATION - Windows
 
 * Install Python 3+
