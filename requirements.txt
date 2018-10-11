@@ -6,7 +6,6 @@ hidapi==0.7.99.post21
 requests==2.18.4
 pycrypto==2.6.1
 python_cjson==1.2.1
-electrum==0
 protobuf==3.5.0.post1
 hid==0.1.1
 jnius==1.1.0
