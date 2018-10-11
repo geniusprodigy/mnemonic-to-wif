@@ -5,21 +5,28 @@ See the example image link of operation: https://imgur.com/a/wUefg23
 
 # INSTALLATION - Windows
 
-* Install Python 3+
+* Install Python 3+, i recommend the 3.7 (already has integrated pip3) 
 
-* Install the Python PIP feature
+* Install the Python pip3 feature (if not have)
 
-* Download the github project folder and save where you prefer. Access the directory via Command Prompt (cmd) and install the requirements.txt file libraries, use the command for greater agility: pip install -r requirements.txt
+* Download the github project folder and save where you prefer. Access the directory via Command Prompt (cmd) and install the requirements.txt file libraries, use the command for greater agility: 
 
-(If the electrum fail, make: pip3 install electrum-merchant) and go to "SOLVING PROBLEMS" below for install the "electrum" manually
+pip install -r requirements.txt
 
-* pip3 install ecdsa
+pip3 install ecdsa
+
+pip3 install base58
+
+pip3 install https://download.electrum.org/3.2.3/Electrum-3.2.3.tar.gz
+
+pip3 install pbkdf2
+
 
 * Create a .txt file named "keys_mnemonics.txt" and replace the directory sample file. Or edit the existing file with your mnemonics, 1 full sentence per line.
 
 * You can now run the code with: python.exe mnemonic_to_wif.py
 
-
+In left the Prompt with execution, in Right the commands needed to make it work in Windows, as mentioned in the text here.
 
 # INSTALLATION - Linux - Ubuntu 16.04 LTS
 
@@ -27,11 +34,18 @@ See the example image link of operation: https://imgur.com/a/wUefg23
 
 * Install pip3 if you have not installed it. Command: sudo apt-get install python3-pip
 
-* Download the github project folder and save where you prefer. Access the directory via Terminal / Shell and install the requirements.txt file libraries, use the command for greater agility: pip3 install -r requirements.txt
+* Download the github project folder and save where you prefer. Access the directory via Terminal / Shell and install the requirements.txt file libraries, use the command for greater agility:
 
-(If the electrum fail, make: pip3 install electrum-merchant) and go to "SOLVING PROBLEMS" below for install the "electrum" manually
+pip install -r requirements.txt
 
-* pip3 install ecdsa
+pip3 install ecdsa
+
+pip3 install base58
+
+pip3 install https://download.electrum.org/3.2.3/Electrum-3.2.3.tar.gz
+
+pip3 install pbkdf2
+
 
 * Create a .txt file named "keys_mnemonics.txt" and replace the directory sample file. Or edit the existing file with your mnemonics, 1 full sentence per line.
 
