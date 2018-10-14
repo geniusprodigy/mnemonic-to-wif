@@ -70,4 +70,4 @@ with open('keys_mnemonics.txt') as file:
 print('_________________________________')
 print('Developed by @genius360')
 print('My contact on reddit: reddit.com/u/genius360')
-print('If this help you, give me a tip please. BTC: 3FQfaUoie5Q1gHe9ye3zumobCMxJNPxrEk')
+print('If this help you, give me a tip please. BTC: 1FTvHvzSNeYHZpJBvFwLy3BtNLGydzwKiM')
