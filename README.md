@@ -96,4 +96,4 @@ When opening the file with a text editor that allows you to count the lines, you
 
 If you need any support, just contact me. Reddit: https://www.reddit.com/user/genius360 Email: geniusprodigy@protonmail.com
 
-If this helped you, please leave a tip. BTC: 3FQfaUoie5Q1gHe9ye3zumobCMxJNPxrEk
+If this helped you, please leave a tip. BTC: 1FTvHvzSNeYHZpJBvFwLy3BtNLGydzwKiM
