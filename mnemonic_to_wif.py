@@ -67,7 +67,8 @@ with open('keys_mnemonics.txt') as file:
         seed_words = str.strip(line)
         test_bip39_seed_bip49_p2sh_segwit(password, seed_words)
 
-print('_________________________________')
-print('Developed by @genius360')
-print('My contact on reddit: reddit.com/u/genius360')
-print('If this help you, give me a tip please. BTC: 1FTvHvzSNeYHZpJBvFwLy3BtNLGydzwKiM')
+print ("__________________________________________________\n")
+print ("Developed by: ~geniusprodigy")
+print ("My contact on reddit: reddit.com/u/genius360\n")
+print ("If this saved you time or helped, donations please for BTC Address:")
+print ("1FrRd4iZRMU8i2Pbffzkac5u4KwUptmc7S")
